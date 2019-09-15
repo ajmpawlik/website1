@@ -14,10 +14,10 @@ $(document).on('click', '#search-results img', function() {
   $("#workspace").append(img);
 });
 
-$(document).on('ready', function(){
+$(document).on('ready', function() {
   $("#caption").text($('#caption-text').val());
 });
 
-$(document).on('input', '#caption-text', function(){
+$(document).on('input', '#caption-text', function() {
   $("#caption").text($(this).val());
 });
