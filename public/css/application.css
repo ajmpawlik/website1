@@ -1,12 +1,17 @@
 body {
   background-image: url(/images/oriental.png);
+  text-align: center;
+  color: rgb(0, 51, 63);
+  font-family: Helvetica, Arial;
+  margin: 0;
+  padding: 0;
 }
 
 #workspace {
   position: relative;
   width: 600px;
   min-height: 300px;
-  border: 5px dashed red;
+  border: 5px dashed gray;
   margin: 0 auto;
 }
 
@@ -25,4 +30,10 @@ body {
   font-size: 32px;
   color: red;
   margin: 0;
+}
+
+header {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box shadow: 1px 0 3px rgba (0, 0, 0, 0.3);
 }
